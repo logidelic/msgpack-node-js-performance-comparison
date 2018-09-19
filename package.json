@@ -1,0 +1,13 @@
+{
+  "name": "msgpack-node-js-performance-comparison",
+  "version": "1.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "notepack.io": "latest",
+    "messagepack": "latest",
+    "msgpack": "latest",
+    "msgpack-lite": "latest",
+    "msgpack-js": "latest",
+    "msgpack5": "latest"
+  }
+}

@@ -1,0 +1,92 @@
+node v10.10.0
+Nvidia TX2
+
+
+-------
+Testing notepack.io 2.1.3
+-------
+Encode small: 10,528
+Encode big:   12,212
+Encode all:   22,740
+Decode small: 18,729
+Decode big:   17,602
+Decode all:   36,331
+All:          59,071
+
+
+
+-------
+Testing msgpack-lite 0.1.26
+-------
+Encode small: 20,899
+Encode big:   11,844
+Encode all:   32,743
+Decode small: 24,914
+Decode big:   24,791
+Decode all:   49,705
+All:          82,448
+
+
+
+-------
+Testing msgpack 1.0.2
+-------
+Encode small: 25,081
+Encode big:   16,032
+Encode all:   41,113
+Decode small: 20,846
+Decode big:   19,667
+Decode all:   40,513
+All:          81,626
+
+
+
+-------
+Testing msgpack5 4.2.1
+-------
+Encode small: 37,482
+Encode big:   39,796
+Encode all:   77,278
+Decode small: 36,819
+Decode big:   30,993
+Decode all:   67,812
+All:          145,090
+
+
+
+-------
+Testing msgpack-js 0.3.0
+-------
+Encode small: 19,743
+Encode big:   21,150
+Encode all:   40,893
+Decode small: 20,987
+Decode big:   19,051
+Decode all:   40,038
+All:          80,931
+
+
+
+-------
+Testing JSON/stringify/parse 
+-------
+Encode small: 4,764
+Encode big:   3,728
+Encode all:   8,492
+Decode small: 14,726
+Decode big:   14,736
+Decode all:   29,462
+All:          37,954
+
+
+
+-------
+Winners
+-------
+Encode small : JSON/stringify/parse(4,764)             notepack.io(10,528)                     msgpack-js(19,743)                      msgpack-lite(20,899)                    
+Encode big   : JSON/stringify/parse(3,728)             msgpack-lite(11,844)                    notepack.io(12,212)                     msgpack(16,032)                         
+Encode all   : JSON/stringify/parse(8,492)             notepack.io(22,740)                     msgpack-lite(32,743)                    msgpack-js(40,893)                      
+Decode small : JSON/stringify/parse(14,726)            notepack.io(18,729)                     msgpack(20,846)                         msgpack-js(20,987)                      
+Decode big   : JSON/stringify/parse(14,736)            notepack.io(17,602)                     msgpack-js(19,051)                      msgpack(19,667)                         
+Decode all   : JSON/stringify/parse(29,462)            notepack.io(36,331)                     msgpack-js(40,038)                      msgpack(40,513)                         
+All          : JSON/stringify/parse(37,954)            notepack.io(59,071)                     msgpack-js(80,931)                      msgpack(81,626)                         
